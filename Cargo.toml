@@ -1,0 +1,11 @@
+[package]
+name = "rust-fun"
+version = "0.1.0"
+authors = ["Daniel Seitz <dnseitz@gmail.com>"]
+
+[[bin]]
+name = "main"
+doc = false
+
+[dependencies]
+rayon = "0.7.0"
